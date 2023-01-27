@@ -17,4 +17,12 @@ public class Repository {
             }
         }
     }
+
+    public void getRemovingWords() {
+        for (int i = 0; i < myHashMap.size(); i++) {
+            if (myHashMap.containsKey("avoidable")){
+                myHashMap.remove("avoidable");
+            }
+        }
+    }
 }
